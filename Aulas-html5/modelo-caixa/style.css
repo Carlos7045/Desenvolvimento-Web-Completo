@@ -1,7 +1,7 @@
 #principal {
-    background: rgba(255, 0, 0, 0.308);
+    /*background: rgba(255, 0, 0, 0.308);*/
     width: 920px;
-    border: 1px solid red;
+    
     padding: 10px;
 }
 .noticia {
@@ -13,4 +13,11 @@
 }
 .clear {
     clear: both;
+}
+.imagem-galeria {
+    background: #e5e5e5;
+    width: 280px;
+    padding: 5px;
+    float: left;
+    margin: 10px;
 }
