@@ -1,5 +1,6 @@
-@charset "UTF-8"
 
-#cabecalho {
-    border: 2px solid red;
+
+body {
+    background-color: rgb(33, 65, 35);
+    color: azure;
 }
