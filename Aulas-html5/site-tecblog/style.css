@@ -54,8 +54,9 @@ h1 {
 */
 #conteudo1 {
     background: #fff;
-    width: 920px;
+    width: 800px;
     padding: 15px;
+    margin: 10px auto;
     float: left;
 
     
