@@ -63,9 +63,14 @@ h1 {
 /*
 *** Formatação conteudo ***
 */
+
+.clear {
+    clear: none;
+}
 #principal {
     margin: 15px auto;
     width: 920px;
+    background: #e9890b;
 
 }
 #conteudo1 {
@@ -73,6 +78,7 @@ h1 {
     width: 650px;
     float: left;
     padding: 5px;
+   
 
 
 }
@@ -81,6 +87,18 @@ h1 {
     width: 235px;
     float: right;
     padding: 5px;
+}
+#lateral {
+    padding: px;
+    margin: 12px;
     
-
+}
+#categoria {
+    padding: px;
+    margin: 12px;
+    
+}
+.h {
+    
+    background: #e2e1e1;
 }
