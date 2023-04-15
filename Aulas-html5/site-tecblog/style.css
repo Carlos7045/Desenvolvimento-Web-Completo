@@ -30,18 +30,29 @@ body {
 */
 .text {
     text-decoration: none;
+    
+}
+#cabecalho a:link, #cabecalho a:visited {
+    color: #fcf9f9;
     padding: 7px 12px;
 }
-a:link, a:visited {
-    color: #fcf9f9;
-}
-a:hover {
+#cabecalho a:hover {
     color: #e9890b;
     background: #fff;
 }
 /*
 *** Formatação Geral ***
 */
+a:link {
+    color: #e9890b;
+}
+a:visited {
+    color: #e9890b;
+}
+a:hover {
+    color: #fff;
+    background: #e9890b;
+}
 h1 {
     color: #4e4e4e;
     font-size: 2.5em;
@@ -52,30 +63,24 @@ h1 {
 /*
 *** Formatação conteudo ***
 */
-#conteudo1 {
-    background: #fff;
-    width: 800px;
-    padding: 15px;
-    margin: 10px auto;
-    float: left;
+#principal {
+    margin: 15px auto;
+    width: 920px;
 
-    
 }
-h3 {
-    background: rgba(70, 68, 68, 0.678);
+#conteudo1 {
+    background: #fcf9f9;
+    width: 650px;
+    float: left;
+    padding: 5px;
+
+
 }
 #conteudo2 {
-    background: #fff;
-    width: 250px;
+    background: #fcf9f9;
+    width: 235px;
     float: right;
-    padding: 7px;
+    padding: 5px;
+    
 
-
-}   
-
-h2 {
-    color: rgb(145, 145, 10);
-}
-p {
-    padding-bottom: 18px;
 }
