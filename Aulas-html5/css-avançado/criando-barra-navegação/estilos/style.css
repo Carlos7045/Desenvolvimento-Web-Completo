@@ -29,9 +29,18 @@ ul a {
   text-indent: 40px;
   line-height: 40px;
   
-  background: url(../imagens/menu.png);
+  background: rgb(241, 238, 13) url(../imagens/menu.png);
 }
 a:hover {
+  background: url(../imagens/menu.png) right;
+  color: azure;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticas a,
+#contato #navegacao .contato a {
   background: url(../imagens/menu.png) right;
   color: azure;
 }
