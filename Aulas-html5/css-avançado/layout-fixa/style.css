@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#container {
+  width: 85%;
+  margin: auto;
+  background: #fff;
+}
+#marca {
+  height: 100px;
+  background: #ddd8d8;
+  text-align: center;
+  line-height: 100px;
+
+}
+#conteudoprincipal {
+  border: 1px solid red;
+  width: 70%;
+  float: right;
+  margin-right: 10px;
+}
+.texto {
+  width: 60%;
+  clear: none;
+  
+}
+#conteudosemana {
+  background: #f1e7e7;
+  width: 25%;
+  float: right;
+  
+}
+#menu {
+  background: #f1e7e7;
+  width: 200px;
+  float: left;
+}
+ul li {
+  list-style-type: none;
+  height: 30px;
+}
+ul a {
+  text-decoration: none;
+}
+
+#rodape {
+  background: #ddd8d8;
+  width: 100%;
+  text-align: center;
+  clear: both;
+  margin-top: 10px;
+}
