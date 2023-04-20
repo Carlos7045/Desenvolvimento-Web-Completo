@@ -3,3 +3,5 @@ var idade = prompt('Digite a sua idade:');
 
 document.write('<h1>Olá '  + nome + ', você tem ' + idade +' anos?<h1>');
 
+
+
