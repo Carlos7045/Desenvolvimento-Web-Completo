@@ -2,14 +2,19 @@ var nome = prompt('Digite seu nome: ');
 var altura = prompt('Digite dua altura em "cm": ');
 var peso = prompt('Digite seu peso: ');
 
+
+// Abaixo é o tratamento de string para Float
 altura = parseFloat(altura);
 peso = parseFloat(peso);
 
+//Conversão de altura em centimento para metros
 var alturaM = altura / 100;
  alturaM = alturaM * alturaM;
 
+ // Calculo de IMC
 var _M = peso / alturaM;
 
+// Teste de condicionais para classificar o IMC
 var classificacao ='';
 
 if(_M < 16){
