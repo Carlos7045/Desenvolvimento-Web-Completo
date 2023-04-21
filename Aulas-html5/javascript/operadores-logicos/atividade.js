@@ -15,8 +15,7 @@ if (idade > 60) {
   document.write(nome, ' É idoso');
 }
 
-Questão 1
-var idade = prompt('Digite a idade');
+/* var idade = prompt('Digite a idade');
 
 if(idade >= 0 && idade < 15){
  alert('Criança');
@@ -33,4 +32,4 @@ if(idade >= 30 && idade < 60){
 if(idade >= 60){
  alert('Idoso');
 } 
-
+*/
